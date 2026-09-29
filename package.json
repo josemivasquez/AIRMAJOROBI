@@ -1,0 +1,13 @@
+{
+  "name": "dashboardaim",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "evidence dev",
+    "validate": "evidence validate",
+    "serve": "evidence serve",
+    "serve:network": "evidence serve --host 0.0.0.0 --port 3080",
+    "deploy": "evidence launch"
+  }
+}
